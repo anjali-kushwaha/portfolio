@@ -1,7 +1,7 @@
 export default function Contact(){
-    return<div name="contact" className="className='h-screen w-ful pt-10  bg-gray-100 ">
-        <div className='flex flex-col' >
-        <div className='flex flex-col items-center'>
+    return<div id="cont" name="contact" className="className='h-screen w-ful pt-10  bg-gray-100 ">
+        <div className='flex flex-col gap-5' >
+        <div className='flex flex-col justify-center items-center'>
              <h1 className='text-4xl font-bold border-b-4 border-purple-500 p3 inline'>CONTACT</h1>
              <p className='text-xl font-grey-100 mt-4'>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
         </div>

@@ -40,7 +40,7 @@ export default function Header(){
     </div>
      <ul className="space-x-5  hidden  md:flex">
         {links.map(({id,link}) =>(
-          <li key={id} className='font-bold  text-lg cursor-pointer capitalize hover:scale-105 duration-200' ><a href='#' className='hover:text-purple-500'> <ScrollLink to={link} smooth duration={500}>{link}</ScrollLink></a></li>
+          <li key={id} className='font-bold  text-lg cursor-pointer capitalize hover:scale-105 duration-200' ><a href='#' className='hover:text-purple-500'><ScrollLink to={link} smooth duration={500}>{link}</ScrollLink></a></li>
         )) }
         
       </ul>

@@ -1,24 +1,26 @@
 import profilePhoto from '../assets/profile.jpg';
 import SocailLinks from './SocialLinks';
 
+
 export default function Banner() {
     return (
         //  bg-gray-100
-        <div name="home" className=" bg-gray-100 px-8 py-20 	">
-            <div className="flex md:flex-row sm:flex-row flex-col-reverse gap-x-24 items-center justify-center pt-32  md:items-center">
+        <div name="home" className=" bg-gray-100 px-8 py-20 ">
+            <div className="flex md:flex-row sm:flex-row flex-col-reverse gap-x-24 items-center justify-center pt-32 sm:items-center  md:items-center">
                 <div className="w-1/2 flex flex-col gap-3">
-                    <h1 className="text-5xl font-medium"><strong>HEY,</strong><strong className="text-purple-500"> I'M ANJALI KUSHAWHA</strong></h1>
-                    <p className="pt-5 text-lg mb-12">A frontend developer focused on web development, building the frontend of websites and web applications that leads to the success of the overall product.</p>
+                    <h1 className="text-5xl font-medium"><strong>HEY, I'M </strong></h1>
+                    <h1 className="text-5xl font-medium"><strong className="text-purple-500">ANJALI KUSHAWHA</strong></h1>
+                    <p className="pt-5 text-lg ">A frontend developer focused on web development, building the frontend of websites and web applications that leads to the success of the overall product.</p>
                     <span>
                     <SocailLinks/>
                   </span>
                     <span className='flex gap-2'>
                     <button className="text-white px-3 py-2 flex items-center rounded-md bg-gradient-to-r from-purple-600 to-pink-500 font-bold hover:scale-105 duration-200 hover:bg-purple-100">
                     <span>
-                    <a href="#">Contact me</a></span>
+                    <a href="#cont">Contact me</a></span>
                   </button>
                   <button className="text-black px-3 py-2 flex items-center rounded-md bg-white  border-2 border-gradient-to-r border-purple-600  font-bold hover:scale-105 duration-200 hover:bg-gradient-to-r from-purple-600 to-pink-500 hover:text-white">
-                 <span><a href="#">Download CV</a></span>
+                  <span><a href="https://drive.google.com/file/d/1fzQpTYKMxwFmFWdlf3yllPwJ8EPXOz21/view?usp=sharing "  target='_blank'>Download CV</a></span>
                  </button>
                  </span>
                     
