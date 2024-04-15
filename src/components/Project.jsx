@@ -6,7 +6,7 @@ import Task  from '../assets/project-4.jpeg';
 export default function Project(){
   
   return(
-    <div name='projects' className='ml-10 mr-10 px-5 mt-3 py-10 '>
+    <div name='project' className='ml-10 mr-10 px-5 mt-3 py-10 '>
      <div className='flex flex-col items-center'>
              <h1 className='text-4xl font-bold border-b-4 border-purple-500 p3 inline'>PROJECTS</h1>
              <p className='text-xl font-grey-100 mt-4'>Here you will find some of the personal projects that I created.</p>

@@ -4,9 +4,9 @@ import SocailLinks from './SocialLinks';
 export default function Banner() {
     return (
         //  bg-gray-100
-        <div name="home" className="h-screen w-full bg-gray-100 px-px	">
-            <div className="max-w-screen-lg mx-auto grid grid-cols-[700px,1fr] gap-x-24 items-center justify-center pt-32 md:flex-row md:items-center">
-                <div className="flex flex-col gap-3">
+        <div name="home" className=" bg-gray-100 px-8 py-20 	">
+            <div className="flex md:flex-row sm:flex-row flex-col-reverse gap-x-24 items-center justify-center pt-32  md:items-center">
+                <div className="w-1/2 flex flex-col gap-3">
                     <h1 className="text-5xl font-medium"><strong>HEY,</strong><strong className="text-purple-500"> I'M ANJALI KUSHAWHA</strong></h1>
                     <p className="pt-5 text-lg mb-12">A frontend developer focused on web development, building the frontend of websites and web applications that leads to the success of the overall product.</p>
                     <span>
@@ -28,9 +28,9 @@ export default function Banner() {
                     <img className="w-150 h-150 rounded-full" src={profilePhoto} alt="Banner" />
                 </div> */}
               
-  <div className="w-250 h-250 bg-grey-200 border-8 border-gradient-to-r border-purple-600  rounded-full grid place-items-center transition duration-400">
-    <div className="w-180 h-180 rounded-full overflow-hidden flex items-center justify-center">
-      <img className="w-150 h-150 rounded-full md:w-full" src={profilePhoto} alt="Banner" />
+  <div className=" bg-purple-600 border-8 border-purple-600  rounded-full place-items-center transition duration-400 w-[320px] h-full">
+    <div className="rounded-full overflow-hidden items-center justify-center  w-[300px] h-full">
+      <img src={profilePhoto} alt="Banner" />
     </div>
   </div>
             </div>
