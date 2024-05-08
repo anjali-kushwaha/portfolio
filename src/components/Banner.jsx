@@ -20,7 +20,7 @@ export default function Banner() {
                     <a href="#cont">Contact me</a></span>
                   </button>
                   <button className="text-black px-3 py-2 flex items-center rounded-md bg-white  border-2 border-gradient-to-r border-purple-600  font-bold hover:scale-105 duration-200 hover:bg-gradient-to-r from-purple-600 to-pink-500 hover:text-white">
-                  <span><a href="https://drive.google.com/file/d/1fzQpTYKMxwFmFWdlf3yllPwJ8EPXOz21/view?usp=sharing "  target='_blank'>Download CV</a></span>
+                  <span><a href="https://drive.google.com/file/d/1gr_AbhTAcTCz7revnGG2QgaXhWj0TMzB/view?usp=sharing"  target='_blank'>Download CV</a></span>
                  </button>
                  </span>
                     
